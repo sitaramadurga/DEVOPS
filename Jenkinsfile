@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-               git branch: 'main', url: 'https://github.com/sitaramadurga/Devops-Php-Project.git'
+               git branch: 'main', url: 'https://github.com/sitaramadurga/DEVOPS.git'
             }
         }
         stage('Docker Build'){
